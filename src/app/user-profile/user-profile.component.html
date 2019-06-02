@@ -1,0 +1,147 @@
+
+<!-- PAGE STUFF -->
+<!-- <div class="overlay">
+  <div class="abs-center overlay-card">
+    <div class="close">X</div>
+    <div class="floated overlay-image">
+      <div class="abs-center post-image"></div>
+    </div>
+    <div class="floated overlay-desc">
+      <div class="rela-block desc-title"></div>
+      <div class="rela-block desc-author"></div>
+      <div class="rela-block desc-desc"></div>
+    </div>
+  </div>
+</div> -->
+<div class="nav-bar">
+  <div class="horz-center nav-container">
+    <div class="floated logo">ReadBay</div>
+    <!-- <ul class="floated nav-div nav-links">
+      <li class="rela-inline">Shots</li>
+      <li class="rela-inline">Designers</li>
+      <li class="rela-inline">Teams</li>
+      <li class="rela-inline">Community</li>
+      <li class="rela-inline">Jobs</li>
+    </ul> -->
+    <!-- <ul class="floated nav-div">
+      <li class="rela-inline menu-toggle">•••</li>
+    </ul> -->
+    <div class="floated right nav-div search-container">
+      <div class="rela-inline icon search-icon"></div><input type="text" placeholder="Search"
+        class="rela-inline nav-search" />
+    </div>
+    <ul class="floated right nav-div sign-div">
+      <li class="rela-inline">Sign-Up</li>
+      <li class="rela-inline">Sign-In</li>
+    </ul>
+    <div class="menu-card">
+      <div class="abs-center menu-background"></div>
+      <div class="menu-content">
+        <!-- <ul class="menu-links sub-nav-links">
+          <li class="rela-block">Shots</li>
+          <li class="rela-block">Designers</li>
+          <li class="rela-block">Teams</li>
+          <li class="rela-block">Community</li>
+          <li class="rela-block">Jobs</li>
+        </ul>
+        <ul class="menu-links">
+          <li class="rela-block">About</li>
+          <li class="rela-block">Shop</li>
+          <li class="rela-block">Support</li>
+          <li class="rela-block">Tags</li>
+          <li class="rela-block">Contact</li>
+        </ul> -->
+        <ul class="menu-links sign-links">
+          <li class="rela-block">Sign-Up</li>
+          <li class="rela-block">Sign-In</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="rela-block container">
+  <div class="rela-block profile-card">
+    <div class="profile-pic" id="profile_pic"></div>
+    <div class="rela-block profile-name-container">
+      <div class="rela-block user-name" id="user_name">User Name Here</div>
+      <div class="rela-block user-desc" id="user_description">User Description Here</div>
+    </div>
+    <div class="rela-block profile-card-stats">
+      <div class="floated profile-stat works" id="num_works">28<br></div>
+      <div class="floated profile-stat followers" id="num_followers">112<br></div>
+      <div class="floated profile-stat following" id="num_following">245<br></div>
+    </div>
+  </div>
+  <div class="rela-block profile-card1">
+      <div class="rela-block profile-card-stats1">
+     <div class="floated profile-stat medium" id="num_medium"><i class="fa fa-medium"></i><br></div>
+        <div class="floated profile-stat quora" id="num_quora"><i class="fa fa-quora"></i><br></div>
+        <div class="floated profile-stat blog" id="num_blog"><i class="fas fa-pen-nib"></i><br></div>
+      </div>
+    </div>
+  <div class="topButtons">
+
+      <button mat-raised-button color="primary" class="bookButton" (click)="buttonValue=true" >Books</button>
+      <button mat-raised-button color="accent" class="linkButton" (click)="buttonValue=false">Articles</button>
+</div>
+  <div class="example-selected-value">Selected value: {{buttonValue}}</div>
+  <div class="rela-block content" *ngIf="buttonValue">
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+  </div>
+
+  <div class="rela-block content" *ngIf="!buttonValue">
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+    <div class="rela-inline image"></div>
+  </div>
+  <div class="rela-inline button more-images" onclick="add_images(); inf_scroll = true;">More Images</div>
+</div>
+<div class="rela-block footer">
+  <p>FOOTER</p><br>
+  <p>Classic deluxe custom designer luxury prestige high-quality premium select gourmet pocket pencil
+    sharpener.<br><br>Yours for the asking, no purchase necessary. It's our way of saying thank you.</p>
+</div>
